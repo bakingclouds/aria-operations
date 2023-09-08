@@ -1,0 +1,428 @@
+{
+    "dashboards": [{
+       "autoswitchEnabled": false,
+       "columnCount": 1,
+       "columnProportion": "1-1",
+       "creationTime": 1694157353002,
+       "dashboardNavigations": {},
+       "description": "",
+       "disabled": false,
+       "gridsterMaxColumns": 12,
+       "hidden": false,
+       "homeTab": false,
+       "id": "99416312-aa8f-45eb-b2de-6bd62a45fb76",
+       "importAttempts": 0,
+       "importComplete": true,
+       "lastUpdateTime": 1694160634643,
+       "lastUpdateUserId": "93a51ffd-b2e8-45e2-afa7-f4684e23d986",
+       "locked": false,
+       "name": "Host Temperature Monitoring",
+       "rank": 0,
+       "shared": false,
+       "states": [],
+       "temporary": false,
+       "userId": "93a51ffd-b2e8-45e2-afa7-f4684e23d986",
+       "widgetInteractions": [],
+       "widgets": [
+          {
+             "collapsed": false,
+             "config": {
+                "boxColumns": 2,
+                "boxHeight": null,
+                "customFilter": {
+                   "excludedResources": null,
+                   "filter": [],
+                   "includedResources": null
+                },
+                "depth": 1,
+                "labelSize": 16,
+                "maxCellCount": 100,
+                "metric": {
+                   "mode": "resource",
+                   "resourceKindMetrics": [],
+                   "resourceMetrics": [
+                      {
+                         "colorMethod": 1,
+                         "handleOldColoring": false,
+                         "id": "extModel4412-1",
+                         "isStringMetric": false,
+                         "link": "",
+                         "metricKey": "Sensor|temperature:System Board 1 Exhaust Temp|currentValue",
+                         "metricName": "Sensor|Temperature:System Board 1 Exhaust Temp|Temp C",
+                         "orangeBound": null,
+                         "redBound": null,
+                         "resourceId": "resource:id:0_::_",
+                         "resourceKindId": "002006VMWAREHostSystem",
+                         "resourceName": "esxi01.bakingclouds.com",
+                         "yellowBound": null
+                      },
+                      {
+                         "colorMethod": 1,
+                         "handleOldColoring": false,
+                         "id": "extModel4412-2",
+                         "isStringMetric": false,
+                         "link": "",
+                         "metricKey": "Sensor|temperature:System Board 1 Exhaust Temp|currentValue",
+                         "metricName": "Sensor|Temperature:System Board 1 Exhaust Temp|Temp C",
+                         "orangeBound": null,
+                         "redBound": null,
+                         "resourceId": "resource:id:1_::_",
+                         "resourceKindId": "002006VMWAREHostSystem",
+                         "resourceName": "esxi02.bakingclouds.com",
+                         "yellowBound": null
+                      },
+                      {
+                         "colorMethod": 1,
+                         "handleOldColoring": false,
+                         "id": "extModel4412-3",
+                         "isStringMetric": false,
+                         "link": "",
+                         "metricKey": "Sensor|temperature:System Board 1 Exhaust Temp|currentValue",
+                         "metricName": "Sensor|Temperature:System Board 1 Exhaust Temp|Temp C",
+                         "orangeBound": null,
+                         "redBound": null,
+                         "resourceId": "resource:id:2_::_",
+                         "resourceKindId": "002006VMWAREHostSystem",
+                         "resourceName": "esxi03.bakingclouds.com",
+                         "yellowBound": null
+                      },
+                      {
+                         "colorMethod": 1,
+                         "handleOldColoring": false,
+                         "id": "extModel4412-4",
+                         "isStringMetric": false,
+                         "link": "",
+                         "metricKey": "Sensor|temperature:System Board 1 Exhaust Temp|currentValue",
+                         "metricName": "Sensor|Temperature:System Board 1 Exhaust Temp|Temp C",
+                         "orangeBound": null,
+                         "redBound": null,
+                         "resourceId": "resource:id:3_::_",
+                         "resourceKindId": "002006VMWAREHostSystem",
+                         "resourceName": "esxi04.bakingclouds.com",
+                         "yellowBound": null
+                      },
+                      {
+                         "colorMethod": 1,
+                         "handleOldColoring": false,
+                         "id": "extModel4412-5",
+                         "isStringMetric": false,
+                         "link": "",
+                         "metricKey": "Sensor|temperature:System Board 1 Exhaust Temp|currentValue",
+                         "metricName": "Sensor|Temperature:System Board 1 Exhaust Temp|Temp C",
+                         "orangeBound": null,
+                         "redBound": null,
+                         "resourceId": "resource:id:4_::_",
+                         "resourceKindId": "002006VMWAREHostSystem",
+                         "resourceName": "esxi05.bakingclouds.com",
+                         "yellowBound": null
+                      },
+                      {
+                         "colorMethod": 1,
+                         "handleOldColoring": false,
+                         "id": "extModel4412-6",
+                         "isStringMetric": false,
+                         "link": "",
+                         "metricKey": "Sensor|temperature:System Board 1 Exhaust Temp|currentValue",
+                         "metricName": "Sensor|Temperature:System Board 1 Exhaust Temp|Temp C",
+                         "orangeBound": null,
+                         "redBound": null,
+                         "resourceId": "resource:id:5_::_",
+                         "resourceKindId": "002006VMWAREHostSystem",
+                         "resourceName": "esxi06.bakingclouds.com",
+                         "yellowBound": null
+                      }
+                   ]
+                },
+                "mode": {"layoutMode": "fixedView"},
+                "oldMetricValues": false,
+                "periodLength": "last12Hour",
+                "refreshContent": {"refreshContent": true},
+                "refreshInterval": 300,
+                "relationshipMode": {"relationshipMode": 0},
+                "resInteractionMode": null,
+                "resource": [],
+                "roundDecimals": null,
+                "selfProvider": {"selfProvider": true},
+                "showDT": {"showDT": false},
+                "showMetricName": {"showMetricName": true},
+                "showMetricUnit": {"showMetricUnit": true},
+                "showResourceName": {"showResourceName": true},
+                "showSparkline": {"showSparkline": true},
+                "title": "System Board 1 Exhaust Temp",
+                "valueSize": 24,
+                "visualTheme": 8
+             },
+             "gridsterCoords": {
+                "h": 11,
+                "w": 4,
+                "x": 5,
+                "y": 1
+             },
+             "height": 608,
+             "id": "46615797-a60c-45b1-b8a5-f21a1945c5fa",
+             "title": "System Board 1 Exhaust Temp",
+             "type": "Scoreboard"
+          },
+          {
+             "collapsed": false,
+             "config": {
+                "boxColumns": 2,
+                "boxHeight": null,
+                "customFilter": {
+                   "excludedResources": null,
+                   "filter": [],
+                   "includedResources": null
+                },
+                "depth": 1,
+                "labelSize": 16,
+                "maxCellCount": 100,
+                "metric": {
+                   "mode": "resource",
+                   "resourceKindMetrics": [],
+                   "resourceMetrics": [
+                      {
+                         "colorMethod": 1,
+                         "handleOldColoring": false,
+                         "id": "extModel2048-1",
+                         "isStringMetric": false,
+                         "link": "",
+                         "metricKey": "Sensor|temperature:System Board 1 Inlet Temp|currentValue",
+                         "metricName": "Sensor|Temperature:System Board 1 Inlet Temp|Temp C",
+                         "orangeBound": null,
+                         "redBound": null,
+                         "resourceId": "resource:id:0_::_",
+                         "resourceKindId": "002006VMWAREHostSystem",
+                         "resourceName": "esxi01.bakingclouds.com",
+                         "yellowBound": null
+                      },
+                      {
+                         "colorMethod": 1,
+                         "handleOldColoring": false,
+                         "id": "extModel2048-2",
+                         "isStringMetric": false,
+                         "link": "",
+                         "metricKey": "Sensor|temperature:System Board 1 Inlet Temp|currentValue",
+                         "metricName": "Sensor|Temperature:System Board 1 Inlet Temp|Temp C",
+                         "orangeBound": null,
+                         "redBound": null,
+                         "resourceId": "resource:id:1_::_",
+                         "resourceKindId": "002006VMWAREHostSystem",
+                         "resourceName": "esxi02.bakingclouds.com",
+                         "yellowBound": null
+                      },
+                      {
+                         "colorMethod": 1,
+                         "handleOldColoring": false,
+                         "id": "extModel2048-3",
+                         "isStringMetric": false,
+                         "link": "",
+                         "metricKey": "Sensor|temperature:System Board 1 Inlet Temp|currentValue",
+                         "metricName": "Sensor|Temperature:System Board 1 Inlet Temp|Temp C",
+                         "orangeBound": null,
+                         "redBound": null,
+                         "resourceId": "resource:id:2_::_",
+                         "resourceKindId": "002006VMWAREHostSystem",
+                         "resourceName": "esxi03.bakingclouds.com",
+                         "yellowBound": null
+                      },
+                      {
+                         "colorMethod": 1,
+                         "handleOldColoring": false,
+                         "id": "extModel2048-4",
+                         "isStringMetric": false,
+                         "link": "",
+                         "metricKey": "Sensor|temperature:System Board 1 Inlet Temp|currentValue",
+                         "metricName": "Sensor|Temperature:System Board 1 Inlet Temp|Temp C",
+                         "orangeBound": null,
+                         "redBound": null,
+                         "resourceId": "resource:id:3_::_",
+                         "resourceKindId": "002006VMWAREHostSystem",
+                         "resourceName": "esxi04.bakingclouds.com",
+                         "yellowBound": null
+                      },
+                      {
+                         "colorMethod": 1,
+                         "handleOldColoring": false,
+                         "id": "extModel3595-1",
+                         "isStringMetric": false,
+                         "link": "",
+                         "metricKey": "Sensor|temperature:System Board 1 Inlet Temp|currentValue",
+                         "metricName": "Sensor|Temperature:System Board 1 Inlet Temp|Temp C",
+                         "orangeBound": null,
+                         "redBound": null,
+                         "resourceId": "resource:id:4_::_",
+                         "resourceKindId": "002006VMWAREHostSystem",
+                         "resourceName": "esxi05.bakingclouds.com",
+                         "yellowBound": null
+                      },
+                      {
+                         "colorMethod": 1,
+                         "handleOldColoring": false,
+                         "id": "extModel3595-2",
+                         "isStringMetric": false,
+                         "link": "",
+                         "metricKey": "Sensor|temperature:System Board 1 Inlet Temp|currentValue",
+                         "metricName": "Sensor|Temperature:System Board 1 Inlet Temp|Temp C",
+                         "orangeBound": null,
+                         "redBound": null,
+                         "resourceId": "resource:id:5_::_",
+                         "resourceKindId": "002006VMWAREHostSystem",
+                         "resourceName": "esxi06.bakingclouds.com",
+                         "yellowBound": null
+                      }
+                   ]
+                },
+                "mode": {"layoutMode": "fixedView"},
+                "oldMetricValues": false,
+                "periodLength": "last12Hour",
+                "refreshContent": {"refreshContent": true},
+                "refreshInterval": 300,
+                "relationshipMode": {"relationshipMode": 0},
+                "resInteractionMode": null,
+                "resource": [],
+                "roundDecimals": null,
+                "selfProvider": {"selfProvider": true},
+                "showDT": {"showDT": false},
+                "showMetricName": {"showMetricName": true},
+                "showMetricUnit": {"showMetricUnit": true},
+                "showResourceName": {"showResourceName": true},
+                "showSparkline": {"showSparkline": true},
+                "title": "System Board 1 Intel Temp",
+                "valueSize": 24,
+                "visualTheme": 8
+             },
+             "gridsterCoords": {
+                "h": 11,
+                "w": 4,
+                "x": 1,
+                "y": 1
+             },
+             "height": 608,
+             "id": "57e50bb0-912c-461f-8016-0ad29220c970",
+             "title": "System Board 1 Intel Temp",
+             "type": "Scoreboard"
+          },
+          {
+             "collapsed": false,
+             "config": {
+                "editorData": "<font color=\"#ccffff\" style=\"\" face=\"verdana\" size=\"3\"><font style=\"background-color: rgb(192, 192, 192);\">\u200b<font style=\"\">\u200b<\/font><\/font><font style=\"\">\u200bSystem Board 1 Inlet Temp:<\/font><\/font><div style=\"\"><font color=\"#ccffff\" face=\"verdana\" size=\"3\"><br><\/font><\/div><div style=\"\"><font color=\"#ccffff\" face=\"verdana\" size=\"3\">This is the temperature of the air entering the system or chassis, measured just before it passes over the system board or main components<\/font><\/div><div style=\"\"><font color=\"#ccffff\" face=\"verdana\" size=\"3\"><br><\/font><\/div><div style=\"\"><font color=\"#ccffff\" face=\"verdana\" size=\"3\">System Board 1 Exhaust Temp:<\/font><\/div><div style=\"\"><font color=\"#ccffff\" face=\"verdana\" size=\"3\"><br><\/font><\/div><div style=\"\"><font color=\"#ccffff\" face=\"verdana\" size=\"3\">This is the temperature of the air exiting the system or chassis, measured after it has passed over and absorbed heat from the system board and other components.<\/font><\/div><div style=\"\"><font color=\"#ccffff\" face=\"verdana\" size=\"3\"><br><\/font><\/div><div style=\"\"><font color=\"#ccffff\" face=\"verdana\" size=\"3\">Why Monitor Both?<\/font><\/div><div style=\"\"><font color=\"#ccffff\" face=\"verdana\" size=\"3\"><br><\/font><\/div><div style=\"\"><font color=\"#ccffff\" face=\"verdana\" size=\"3\">&nbsp; &nbsp; By comparing the inlet and exhaust temperatures, you can gauge the thermal load on the system. A small difference between the two suggests efficient cooling, while a large difference indicates that the system components are generating a lot of heat.<\/font><\/div><div style=\"\"><font color=\"#ccffff\" style=\"\" face=\"verdana\" size=\"3\">&nbsp; &nbsp; Monitoring both temperatures can help in proactive maintenance. For instance, if the exhaust temperature starts rising steadily over time without a corresponding increase in the inlet temperature, it might indicate that the cooling mechanisms (like fans) are wearing out or that there's a buildup of dust and debris inside the system.<\/font><\/div>",
+                "locationFile": "",
+                "locationUrl": "",
+                "refreshContent": {"refreshContent": false},
+                "refreshInterval": 300,
+                "title": "Reference",
+                "viewModeHTML": true
+             },
+             "gridsterCoords": {
+                "h": 11,
+                "w": 4,
+                "x": 9,
+                "y": 1
+             },
+             "height": 609,
+             "id": "dbc89dd6-48a3-4165-9918-e2f449b67bd0",
+             "title": "Reference",
+             "type": "TextDisplay"
+          }
+       ]
+    }],
+    "entries": {"resource": [
+       {
+          "adapterKindKey": "VMWARE",
+          "identifiers": [
+             {
+                "key": "VMEntityObjectID",
+                "value": "host-1006"
+             },
+             {
+                "key": "VMEntityVCID",
+                "value": "fe5f7d64-1133-44dc-b216-d763da1399d5"
+             }
+          ],
+          "internalId": "resource:id:2_::_",
+          "name": "esxi03.bakingclouds.com",
+          "resourceKindKey": "HostSystem"
+       },
+       {
+          "adapterKindKey": "VMWARE",
+          "identifiers": [
+             {
+                "key": "VMEntityObjectID",
+                "value": "host-2009"
+             },
+             {
+                "key": "VMEntityVCID",
+                "value": "fe5f7d64-1133-44dc-b216-d763da1399d5"
+             }
+          ],
+          "internalId": "resource:id:4_::_",
+          "name": "esxi05.bakingclouds.com",
+          "resourceKindKey": "HostSystem"
+       },
+       {
+          "adapterKindKey": "VMWARE",
+          "identifiers": [
+             {
+                "key": "VMEntityObjectID",
+                "value": "host-1042"
+             },
+             {
+                "key": "VMEntityVCID",
+                "value": "fe5f7d64-1133-44dc-b216-d763da1399d5"
+             }
+          ],
+          "internalId": "resource:id:3_::_",
+          "name": "esxi04.bakingclouds.com",
+          "resourceKindKey": "HostSystem"
+       },
+       {
+          "adapterKindKey": "VMWARE",
+          "identifiers": [
+             {
+                "key": "VMEntityObjectID",
+                "value": "host-2006"
+             },
+             {
+                "key": "VMEntityVCID",
+                "value": "fe5f7d64-1133-44dc-b216-d763da1399d5"
+             }
+          ],
+          "internalId": "resource:id:5_::_",
+          "name": "esxi06.bakingclouds.com",
+          "resourceKindKey": "HostSystem"
+       },
+       {
+          "adapterKindKey": "VMWARE",
+          "identifiers": [
+             {
+                "key": "VMEntityObjectID",
+                "value": "host-11"
+             },
+             {
+                "key": "VMEntityVCID",
+                "value": "fe5f7d64-1133-44dc-b216-d763da1399d5"
+             }
+          ],
+          "internalId": "resource:id:0_::_",
+          "name": "esxi01.bakingclouds.com",
+          "resourceKindKey": "HostSystem"
+       },
+       {
+          "adapterKindKey": "VMWARE",
+          "identifiers": [
+             {
+                "key": "VMEntityObjectID",
+                "value": "host-1050"
+             },
+             {
+                "key": "VMEntityVCID",
+                "value": "fe5f7d64-1133-44dc-b216-d763da1399d5"
+             }
+          ],
+          "internalId": "resource:id:1_::_",
+          "name": "esxi02.bakingclouds.com",
+          "resourceKindKey": "HostSystem"
+       }
+    ]},
+    "uuid": "b695a500-ee63-4c33-8dc2-e5db32f24083"
+ }
